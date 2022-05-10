@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/firegram/static/css/main.6154e778.css",
-    "main.js": "/firegram/static/js/main.b5877305.js",
-    "index.html": "/firegram/index.html",
-    "main.6154e778.css.map": "/firegram/static/css/main.6154e778.css.map",
-    "main.b5877305.js.map": "/firegram/static/js/main.b5877305.js.map"
+    "main.css": "/Firegram/static/css/main.6154e778.css",
+    "main.js": "/Firegram/static/js/main.b5877305.js",
+    "index.html": "/Firegram/index.html",
+    "main.6154e778.css.map": "/Firegram/static/css/main.6154e778.css.map",
+    "main.b5877305.js.map": "/Firegram/static/js/main.b5877305.js.map"
   },
   "entrypoints": [
     "static/css/main.6154e778.css",
