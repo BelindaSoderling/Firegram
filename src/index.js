@@ -7,7 +7,7 @@ const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 
 root.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <App />
   </Router>
 )

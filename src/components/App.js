@@ -7,7 +7,8 @@ import Logout from "./Logout";
 import Layout from "./Layout";
 import Users from "./Users";
 import User from "./User";
-import styles from '../styles/App.module.css';
+import styles from "../styles/App.module.css";
+import ErrorPage from "./ErrorPage";
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route exact path="/login" element={<Login />} /> {/* Login page */}
         <Route exact path="/logout" element={<Logout />} /> {/* Logout page */}
         <Route exact path="/register" element={<Register />} /> {/* Register page */}
+        <Route path="*" element={<ErrorPage />} /> {/* Page Not Found */}
       </Routes>
     </div>
   )
