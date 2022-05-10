@@ -1,0 +1,24 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .8);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  border: 2px solid #000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.modal > img {
+  max-width: 60vw;
+  max-height: 70vh;
+  object-fit: cover;
+  vertical-align: bottom;
+}

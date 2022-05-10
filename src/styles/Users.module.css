@@ -1,0 +1,30 @@
+.usersPage {
+  width: 90%;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.usersPage > p {
+  text-align: center;
+}
+
+.usersList {
+  list-style-type: none;
+  display: grid;
+  grid: auto / repeat(4, 1fr);
+  text-align: center;
+}
+
+.userItems > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+  .usersList {
+    display: block;
+  }
+}

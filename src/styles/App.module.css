@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&family=Water+Brush&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+}
+
+h1 {
+  font-family: 'Water Brush', cursive;
+}
+
+h2, h3, p, button, input, a, li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}

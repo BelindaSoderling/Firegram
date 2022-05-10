@@ -1,0 +1,26 @@
+.logoutPage {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, rgb(70, 91, 200), rgb(186, 88, 187));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoutContainer {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  gap: 1.2rem;
+  border-radius: 7px;
+  padding: 3rem;
+  color: #fff;
+  width: 20rem;
+}
+
+.logoutContainer > h2 {
+  padding-bottom: .7rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
+}

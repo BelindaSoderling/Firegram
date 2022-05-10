@@ -1,0 +1,63 @@
+.loginPage {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, rgb(70, 91, 200), rgb(186, 88, 187));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  gap: 1.2rem;
+  border-radius: 7px;
+  padding: 3rem 2rem;
+  color: #fff;
+  width: 20rem;
+}
+
+.registerLink > a {
+  color: #fff;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #000;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 1.2rem;
+}
+
+.userInput {
+  height: 2rem;
+  width: 80%;
+  padding-left: 1rem;
+}
+
+.userInput:focus {
+  outline: none;
+}
+
+.loginBtn {
+  width: 50%;
+  height: 2.5rem;
+  border: none;
+  background-color: rgb(186, 88, 187);
+  border-radius: .8rem;
+  color: #fff;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+.registerContainer {
+  height: 1rem;
+}

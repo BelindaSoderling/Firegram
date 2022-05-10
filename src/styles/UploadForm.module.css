@@ -1,0 +1,40 @@
+.uploadForm {
+  width: 10rem;
+  height: 4rem;
+  background-color: rgb(186, 88, 187);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.uploadForm > label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadForm > label > input {
+  display: none;
+}
+
+.buttonText {
+  text-align: center;
+}
+
+.error {
+  position: absolute;
+  font-size: 1rem;
+  bottom: -3rem;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 767px) {
+  .uploadForm {
+    width: 80%;
+  }
+}

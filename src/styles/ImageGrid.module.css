@@ -1,0 +1,33 @@
+.imageGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.imageGridItem {
+  width: 200px;
+  height: 200px;
+  min-width: 12vw;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.imageGrid:empty::after {
+  content: "No pictures available.";
+}
+
+.imageGridItem > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 518px) {
+  .imageGridItem {
+    width: 80%;
+    height: auto;
+  }
+}

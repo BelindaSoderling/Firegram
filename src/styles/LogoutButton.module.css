@@ -1,0 +1,12 @@
+.logoutButton {
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  padding: 0 1rem;
+  z-index: 1;
+}
+
+.logoutButton:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

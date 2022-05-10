@@ -1,0 +1,28 @@
+.header {
+  width: 90%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo > a {
+  font-size: 5rem;
+  font-family: 'Water Brush', cursive;
+  text-decoration: none;
+  color: #000;
+}
+
+.loggedInAs {
+  font-size: .8rem;
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+  .loggedInAs {
+    display: none;
+  }
+}
