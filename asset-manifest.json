@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/firegram/static/css/main.6154e778.css",
+    "main.js": "/firegram/static/js/main.b5877305.js",
+    "index.html": "/firegram/index.html",
+    "main.6154e778.css.map": "/firegram/static/css/main.6154e778.css.map",
+    "main.b5877305.js.map": "/firegram/static/js/main.b5877305.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6154e778.css",
+    "static/js/main.b5877305.js"
+  ]
+}
